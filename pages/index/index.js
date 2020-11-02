@@ -119,8 +119,8 @@ Page({
         callback({
           // XCosSecurityToken: credentials.sessionToken,
           Authorization: CosAuth({
-            SecretId: 'AKIDGDvVp3BnS1TgYKhYgYTCmutnTwCHqwpa',
-            SecretKey: 'jEF0Xs04udbNtGMdolSvGLGxTBdrtgne',
+            SecretId: '',
+            SecretKey: '',
             Method: options.Method,
             Pathname: options.Pathname,
           })
